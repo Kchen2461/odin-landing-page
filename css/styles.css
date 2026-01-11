@@ -87,6 +87,29 @@ figcaption {
     border-radius: 25%;
 }
 
+.info-title {
+    text-align: center;
+}
+
+.subblocks {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.subblock {
+    height: 250px;
+    width: 150px;
+    text-align: center;
+    font-size: 18px;
+    color: #1F2937;
+}
+
+.subblock img {
+    border: 4px solid rgb(0, 81, 255);
+    border-radius: 16px;
+}
+
 footer {
     display: flex;
     justify-content: center;
