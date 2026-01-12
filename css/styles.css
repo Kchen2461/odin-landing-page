@@ -11,7 +11,7 @@ footer,
 .info,
 .quote,
 .sign-up {
-    padding: 0 4em;
+    padding: 0 10%;
 }
 
 body {
@@ -25,11 +25,10 @@ img {
 
 header {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
-    gap: 24px;
+    gap: 0.5em;
 }
 
 .logo {
@@ -45,7 +44,8 @@ header {
     margin: 0;
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 5%;
+    white-space: nowrap;
 }
 
 .header-links a {
@@ -62,7 +62,7 @@ header {
     align-items: flex-start;
     flex-wrap: wrap;
     gap: 24px;
-    padding: 4em;
+    padding: 4em 10%;
 }
 
 .intro h1 {
@@ -75,7 +75,7 @@ header {
 .intro p {
     font-size: 18px;
     color: #E5E7EB;
-    margin: 0;
+    margin: 8px 0;
 }
 
 .intro figure {
@@ -89,12 +89,6 @@ figcaption {
 .intro-left {
     display: flex;
     flex-direction: column;
-}
-
-.intro button {
-    width: 50px;
-    height: 25px;
-    border-radius: 25%;
 }
 
 .info-title {
@@ -131,12 +125,14 @@ figcaption {
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
+    padding: 32px 30%;
 }
 
 .quote blockquote {
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
+    margin: 0;
 }
 
 .quote p {
@@ -145,10 +141,43 @@ figcaption {
     font-size: 18px;
 }
 
+.sign-up {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4em 10%;
+    margin: 4em 20%;
+    border-radius: 10px;
+    color: #F9FAF8;
+    flex-wrap: wrap;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 12px;
+    width: 10em;
+    height: 2.5em;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.sign-up button {
+    border: 2px solid white;
+    align-self: center;
+}
+
+.sign-up h1,
+.sign-up p {
+    margin: 8px 0;
+}
+
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #1F2937;
     color: #E5E7EB;
+    padding: 2em 0;
 }
